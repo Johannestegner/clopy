@@ -18,5 +18,6 @@
     "bugs": {
         "url": "https://github.com/Johannestegner/clopy/issues"
     },
-    "main": "index.js"
+    "main": "index.js",
+    "readme": "README.md"
 }
