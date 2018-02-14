@@ -1,0 +1,22 @@
+{
+    "name": "clopy",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Johannes Tegnér",
+        "email": "johannes@jitesoft.com",
+        "url": "https://jite.eu"
+    },
+    "description": "Vue component for a copy-to-clipboard button.",
+    "keywords": [
+        "vue", "copy", "clipboard", "clopy", "component", "button"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Johannestegner/clopy"
+    },
+    "bugs": {
+        "url": "https://github.com/Johannestegner/clopy/issues"
+    },
+    "main": "index.js"
+}
