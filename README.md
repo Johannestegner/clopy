@@ -32,14 +32,15 @@ Add the element to the HTLM
 <clopy input=".some-input">
 ```
 
-Make sure that the `input` parameter is pointed to the input element you wish to copy from.  
-Click the `clopy` icon/button and copy the content of the input!
+1. Make sure that the `input` parameter is pointed to the input element you wish to copy from.
+2. Click the `clopy` icon/button and copy the content of the input!
+
+The input which is to be copied could be any element with either a `value` attribute or a `innerText`, if both, `value` precedes the `innerText`.
 
 ### Customizing
 
-By default the clopy button has the `clopy-button` class, it can be changed by setting another class to it with the standard `class` attribute, which will then ignore the default class.  
+By default the clopy button has the `clopy-button` class, it can be changed by setting another class via the exposed `classes` attribute, which will then ignore the default class.  
 If the default icon does not suit you, just set the `use-icon` attribute to `false` (boolean, so bind it with `:use-icon`) and it will be ignored.
-
 
 ## Credits
 
